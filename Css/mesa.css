@@ -4,5 +4,15 @@
 }
 .btn-add{
     width: 5%;
-
+    
+}
+.table{
+    width: 10%;
+    height: 90px;
+    font-size: 200%;
+}
+.list-table{
+    margin: 0;
+    padding-left: 0rem;
+    margin-top: 40px
 }

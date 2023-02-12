@@ -1,14 +1,19 @@
 <?php require_once "sidebar.php"; ?>
-<link rel="stylesheet" href="./Css/mesa.css">
+<link rel="stylesheet" href="..\Css\mesa.css">
 
 <section class="home">
 
     <div class="principal">
         <div class="Add-Table">
             <h1>Mesas</h1>
-            <button type="button" class="btn btn-success btn-add" data-bs-toggle="modal" data-bs-target="#create-table"><i class='bx bx-plus-medical'></i></button>
+            <button type="button" class="btn btn-success btn-add" data-bs-toggle="modal"
+                data-bs-target="#create-table"><i class='bx bx-plus-medical'></i></button>
         </div>
         <hr>
+
+        <ul class="list-table">
+            <button type="button" class="btn btn-success table"><strong>11</strong></button>
+        </ul>
 
         <!-- Modal -->
         <div class="modal fade" id="create-table" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -22,7 +27,7 @@
                         ...
                     </div>
                     <div class="modal-footer">
-                        
+
                         <button type="button" class="btn btn-success" data-bs-dismiss="modal">Save changes</button>
                     </div>
                 </div>

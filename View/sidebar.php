@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="./Css/sidebar.css">
+    <link rel="stylesheet" href="..\Css\sidebar.css">
    
     
-    <!----===== Boxicons CSS ===== -->
+    <!----===== Imports CSS and JS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -26,11 +26,11 @@
         <header>
             <div class="image-text">
                 <span class="image">
-                <img src="./Img/Icon-Chef-hat.png">
+                <img src="../Img/Icon-Chef-hat.png">
                 </span>
 
                 <div class="text logo-text">
-                    <span class="name">Project Amazing</span>
+                    <span class="name">Rocket Food</span>
                     <span class="profession">dev for school</span>
                 </div>
             </div>
@@ -67,6 +67,13 @@
                             <span class="text nav-text">Pedidos</span>
                         </a>
                     </li>
+
+                    <li class="nav-link">
+                        <a href="Cardapio.php">
+                            <i class='bx bx-food-menu icon'></i>
+                            <span class="text nav-text">Cardapio</span>
+                        </a>
+                    </li> 
                     
                     <li class="nav-link">
                         <a href="#">
@@ -75,21 +82,8 @@
                         </a>
                     </li>
 
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-food-menu icon'></i>
-                            <span class="text nav-text">Cardapio</span>
-                        </a>
-                    </li> 
-
                   
 
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>  
 
                 </ul>
             </div>
@@ -137,7 +131,7 @@
 
    
       
-sidebar.addEventListener("mouseover" , () =>{
+sidebar.addEventListener("mouseout" , () =>{
     sidebar.classList.toggle("close");
 })
 

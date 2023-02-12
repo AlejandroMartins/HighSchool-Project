@@ -1,0 +1,23 @@
+.list-cardapio{
+    margin: 0;
+    padding-left: 0rem;
+    margin-top: 40px;
+   
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 25%;
+    font-size: 20px
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
